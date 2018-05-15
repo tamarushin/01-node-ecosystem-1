@@ -9,7 +9,7 @@ Write a function that takes in a numeric array and returns an object literal wit
 
 ## Submission Instructions
 
-1. With your assigned partner, pseudocode your solution on the whiteboard. Take a picture of your proposed solution for your repo.
+1. With a partner (if you like), pseudocode your solution on the whiteboard. Take a picture of your proposed solution for your repo.
 1. Make a new branch and folder in your whiteboard challenge repository on GitHub. The name of the folder should be the same as the name of the challenge.
 1. This folder should contain:
 	- A file named `solution.js` which contains the JavaScript solution
