@@ -1,11 +1,11 @@
 'use strict';
 
-module.exports = function(name) {
+function greet(name) {
 
-  if (arguments.length !== 1) throw new Error('name not provided');
+  // if (arguments.length !== 1) throw new Error('name not provided');
   if (typeof name !== 'string') return null;
 
-  return `hello ${name}`;
-};
+  return `Hello, ${name}`;
+}
 
-name('');
+module.exports = greet;
