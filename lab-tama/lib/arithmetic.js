@@ -2,14 +2,20 @@
 
 module.exports = exports = {};
 
-exports.add = function(x, y) {
-  if (arguments.length !== 2) throw new Error ('that is not a number');
-  if (typeof x !== 'number' || typeof y !== 'number');
-  return x + y;
+exports.add = function (x, y) {
+  var sum;
+  if (typeof x !== 'number' || typeof y !== 'number') {
+    return null;
+  }
+  sum = x + y;
+  return sum;
 };
 
 exports.subtract = function (x, y) {
-  if (arguments.length !== 2) throw new Error('that is not a number');
-  if (typeof x !== 'number' || typeof y !== 'number');
-  return x - y;
-}
+  var difference;
+  if (typeof x !== 'number' || typeof y !== 'number') {
+    return null;
+  }
+  difference = x - y;
+  return difference;
+};
